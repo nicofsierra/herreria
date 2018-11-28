@@ -9,7 +9,7 @@
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 <!-- 	class="org.apache.commons.dbcp.BasicDataSource"> -->  		   
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://10.128.54.211:3306/plantillaDb" />
+		<property name="url" value="jdbc:mysql://10.130.71.18:3306/plantillaDb" />
 		<property name="username" value="root" />
 		<property name="password" value="" />
 	</bean>
